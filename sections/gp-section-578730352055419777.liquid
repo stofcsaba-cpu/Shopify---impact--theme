@@ -1041,7 +1041,7 @@
     <div data-id="g6hV0IjcAF"
         class="g6hV0IjcAF"
         style="--dynamic-source-color:#F4F4F4"
-        data-test-force-publish="1755373298322"
+        data-test-force-publish="1755373393516"
       >
       <div  >
         <h1
@@ -1066,7 +1066,7 @@
     <div id="p-price-gESUu2K_f5" data-id
         
         style="--dynamic-source-color:#F4F4F4"
-        data-test-force-publish="1755373298322"
+        data-test-force-publish="1755373393517"
       >
       <div  >
         <div
@@ -1171,7 +1171,7 @@
     <div data-id
         class="gp-w-full"
         style="--dynamic-source-color:#F4F4F4"
-        data-test-force-publish="1755373298323"
+        data-test-force-publish="1755373393518"
       >
       <div class="gp-flex" >
         <div
@@ -1205,7 +1205,7 @@
     <div data-id
         class="gp-w-full"
         style="--dynamic-source-color:#F4F4F4"
-        data-test-force-publish="1755373298323"
+        data-test-force-publish="1755373393519"
       >
       <div class="gp-flex" >
         <div
@@ -1239,7 +1239,7 @@
     <div data-id
         class="gp-w-full"
         style="--dynamic-source-color:#F4F4F4"
-        data-test-force-publish="1755373298323"
+        data-test-force-publish="1755373393519"
       >
       <div class="gp-flex" >
         <div
@@ -1273,7 +1273,7 @@
     <div data-id
         class="gp-w-full"
         style="--dynamic-source-color:#F4F4F4"
-        data-test-force-publish="1755373298324"
+        data-test-force-publish="1755373393519"
       >
       <div class="gp-flex" >
         <div
@@ -1600,7 +1600,7 @@
     <div data-id="ghBs_kYbRm"
         class="ghBs_kYbRm"
         style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_PRODUCT;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:24px;--mb-mobile:12px;--pt-mobile:0px;--pl-mobile:0px;--pb-mobile:0px;--pr-mobile:0px;--dynamic-source-color:#F4F4F4"
-        data-test-force-publish="1755373298369"
+        data-test-force-publish="1755373393521"
       >
       <div class="gp-flex" style="--jc:left">
         <div
@@ -1626,7 +1626,7 @@
     justify-content: space-around;
     align-items: flex-start;
     border: 2px solid #000;
-    border-radius: 0; /* Nem lekerekített */
+    border-radius: 0; /* Szögletes keret */
     padding: 20px;
     font-family: 'Arial', sans-serif;
     background: #fff;
@@ -1655,7 +1655,7 @@
 
   .status-icon {
     background: #f4f4f4;
-    border-radius: 50%; /* Ez az ikon maradjon kör alakú */
+    border-radius: 50%; /* Ikon marad kör alakú */
     padding: 15px;
     width: 50px;
     height: 50px;
@@ -1681,6 +1681,69 @@
     line-height: 1.3;
   }
 </style>
+
+<div class="status-box">
+  <div class="status-step">
+    <div class="status-icon">🛒</div>
+    <div class="status-title">Comandat</div>
+    <div class="status-date" id="orderDate"></div>
+  </div>
+  <div class="status-step">
+    <div class="status-icon">🚚</div>
+    <div class="status-title">Colet Trimis</div>
+    <div class="status-date" id="shippedDate"></div>
+  </div>
+  <div class="status-step">
+    <div class="status-icon">📍</div>
+    <div class="status-title">Livrat</div>
+    <div class="status-date" id="deliveredDate"></div>
+  </div>
+</div>
+
+<script>
+  const locale = 'ro-RO';
+
+  const days = {
+    'lun.': 'Lun',
+    'mar.': 'Mar',
+    'mie.': 'Mie',
+    'joi.': 'Joi',
+    'vin.': 'Vin',
+    'sâm.': 'Sâm',
+    'dum.': 'Dum'
+  };
+
+  const months = {
+    'ian.': 'Ian',
+    'feb.': 'Feb',
+    'mar.': 'Mart',
+    'apr.': 'Apr',
+    'mai.': 'Mai',
+    'iun.': 'Iun',
+    'iul.': 'Iul',
+    'aug.': 'Aug',
+    'sept.': 'Sept',
+    'oct.': 'Oct',
+    'nov.': 'Nov',
+    'dec.': 'Dec'
+  };
+
+  function formatDate(offset) {
+    const d = new Date();
+    d.setDate(d.getDate() + offset);
+    let parts = d.toLocaleDateString(locale, { weekday: 'short', day: '2-digit', month: 'short' }).split(' ');
+
+    const dayName = days[parts[0].toLowerCase()] || parts[0];
+    const dayNumber = parts[1];
+    const monthName = months[parts[2].toLowerCase()] || parts[2];
+
+    return `${dayName} ${dayNumber} ${monthName}.`;
+  }
+
+  document.getElementById("orderDate").textContent = formatDate(0);
+  document.getElementById("shippedDate").textContent = formatDate(2);
+  document.getElementById("deliveredDate").textContent = formatDate(3);
+</script>
     </div>
     </div>
   
@@ -1688,7 +1751,7 @@
     <div data-id="gmsvkwKb1S"
         class="gmsvkwKb1S"
         style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:none;--d-tablet:block;--op:100%;--pageType:GP_PRODUCT;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:8px;--dynamic-source-color:#F4F4F4"
-        data-test-force-publish="1755373298370"
+        data-test-force-publish="1755373393523"
       >
       <div class="gp-flex" style="--jc:left">
         <div
@@ -1757,7 +1820,7 @@
     <div data-id
         class="gp-w-full"
         style="--dynamic-source-color:#F4F4F4"
-        data-test-force-publish="1755373298371"
+        data-test-force-publish="1755373393526"
       >
       <div class="gp-flex" >
         <div
@@ -1828,7 +1891,7 @@
     <div data-id
         class="gp-w-full"
         style="--dynamic-source-color:#F4F4F4"
-        data-test-force-publish="1755373298371"
+        data-test-force-publish="1755373393534"
       >
       <div class="gp-flex" >
         <div
