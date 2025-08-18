@@ -17,50 +17,57 @@
         "item_ERDKVF": {
           "type": "item",
           "settings": {
-            "title": "Protejează și mașina de spălat? (Și alte aparate?)",
-            "content": "<p><br/><em>Deși Filterbaby este conceput special pentru duș, apa filtrată ajută la reducerea calcarului în TOATE aparatele casei!<br/><br/></em><strong>Reducere ~60% a depunerilor</strong> <em>TOATE aparatele</em><br/><br/></p>"
+            "title": "Care sunt ingredientele?",
+            "content": "<p>Lip Masque (4 ml): Aqua (apă), Pentylene Glycol, Butylene Glycol, Mica, Algin, Glycerin, Indigofera Tinctoria Leaf Extract, 1,2-Hexandiol, Caprylyl Glycol, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Squalane, Caprylic/Capric Glucoside, Aromă, Polysorbate 80, Tin Oxide, Acid Lactic, Glucoză.</p>"
           }
         },
         "item_mryNUe": {
           "type": "item",
           "settings": {
-            "title": "Se potrivește capul de duș filtratAquafiltr Pro la dușul meu existent?",
-            "content": "<p>Da, capul de duș filtrat Aquafiltr Pro are un filtru integrat și este proiectat să fie compatibil cu majoritatea furtunurilor de duș și fitingurilor standard.</p>"
+            "title": "Cum se folosește?",
+            "content": "<p><strong>Stain & Go<br/></strong>  1.Aplică EverLux Lip Stain Masque și lasă să acționeze 10–30 secunde.<br/>  2.Șterge cu un prosopel umed sau șervețel.</p><p><br/><strong>Peel & Reveal</strong><br/>Aplică 2–3 straturi de EverLux Lip Masque până când buzele sunt complet acoperite (nuanța albastru-violet NU este culoarea finală).<br/>– Pentru un efect discret: 10–15 secunde,<br/>– Pentru o culoare intensă: 30–45 secunde.<br/>Pulverizează EverLux Lip Activator (1–3 pufuri). Poți simți o ușoară furnicătură.</p><p><br/>Așteaptă câteva secunde, apoi dezlipește masca de la colțul gurii pentru a dezvălui culoarea de dedesubt.<br/><br/><br/><br/><strong><br/> </strong></p>"
           }
         },
         "item_BCipb9": {
           "type": "item",
           "settings": {
-            "title": "Cât de ușor este de instalat?",
-            "content": "<p>Este super ușor – o poți face singur, nu ai nevoie de instalator. Tot ce îți trebuie sunt 3 pași simpli:</p><ol><li>Demontați capul de duș original.</li><li>Înșurubați filtrul de duș Filterbaby Pro Series.</li><li>Înșurubați capul de duș original pe filtrul de duș Filterbaby Pro Series.</li></ol>"
+            "title": "Care este termenul de valabilitate?",
+            "content": "<p><br/>12 luni de la deschidere.<br/><br/></p>"
           }
         },
         "item_mpdeCH": {
           "type": "item",
           "settings": {
-            "title": "Ce rezultate mă pot aștepta de la utilizarea capului de duș filtrat Aquafiltr Pro?",
-            "content": "<p><br/>Vă puteți aștepta la îmbunătățiri semnificative ale pielii și părului, inclusiv reducerea erupțiilor cutanate, roșeții și iritațiilor; o piele mai moale, mai hidratată și un păr mai sănătos și mai strălucitor. Ajută pielea uscată, eczematoasă, predispusă la acnee și rozacee, și îmbunătățește sănătatea respiratorie prin eliminarea vaporilor de clor.<br/><br/></p>"
+            "title": "Câte aplicări are un tub?",
+            "content": "<p>Un tub de 4 ml EverLux Lip Masque ajunge pentru aprox. 45–60 de utilizări.<br/><br/></p>"
           }
         },
         "item_xEXGaz": {
           "type": "item",
           "settings": {
-            "title": "Ce impurități elimină filtrul?",
-            "content": "<p><br/>Aquafiltr Pro elimină până la 99% din clor, cloramină și plumb. De asemenea, reduce metalele grele și alte substanțe chimice dăunătoare.<br/><br/><br/></p>"
+            "title": "Cum se îndepărtează cel mai bine?",
+            "content": "<p>Recomandăm EverLux Triple Action Remover, dar poate fi îndepărtat și cu un demachiant pe bază de ulei.<br/><br/><br/></p>"
           }
         },
         "item_9EGRmH": {
           "type": "item",
           "settings": {
-            "title": "Înmuierează apa capul de duș filtrat?",
-            "content": "<p><br/>Aquafiltr Pro elimină până la 99% din clor, cloramină și plumb. De asemenea, reduce metalele grele și alte substanțe chimice dăunătoare.<br/><br/><br/></p>"
+            "title": "Se poate folosi cu gloss sau balsam?",
+            "content": "<p><br/>Da, poți aplica gloss sau balsam de buze deasupra, fără să afecteze rezistența.<br/><br/><br/><br/><br/></p>"
           }
         },
         "item_aKre3P": {
           "type": "item",
           "settings": {
-            "title": "Când schimb filtrul?",
-            "content": "<p><br/>Majoritatea filtrelor de duș trebuie schimbate la fiecare 3 luni sau după filtrarea a aproximativ 10.000 de litri de apă.<br/><br/></p>"
+            "title": "Este vegan și cruelty-free?",
+            "content": "<p>Absolut! EverLux este 100% vegan, iar squalanul este de origine vegetală.<br/><br/></p>"
+          }
+        },
+        "item_kJhPgj": {
+          "type": "item",
+          "settings": {
+            "title": "Este sigur în timpul sarcinii?",
+            "content": "<p>Da, este testat clinic și considerat sigur pentru sarcină, dar îți recomandăm să arăți lista ingredientelor medicului tău.</p>"
           }
         }
       },
@@ -71,7 +78,8 @@
         "item_mpdeCH",
         "item_xEXGaz",
         "item_9EGRmH",
-        "item_aKre3P"
+        "item_aKre3P",
+        "item_kJhPgj"
       ],
       "settings": {
         "full_width": false,
@@ -80,7 +88,7 @@
         "content": "",
         "team_avatar_width": 160,
         "support_hours": "Serviciul nostru de asistență pentru clienți este disponibil de luni până vineri, între orele 8:00 și 20:30.",
-        "answer_time": "Timp mediu de răspuns: 1 ore",
+        "answer_time": "Timp mediu de răspuns: 5-10 Min",
         "button_text": "Telefon",
         "button_url": "tel:0741787327",
         "text_position": "start",

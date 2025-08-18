@@ -137,6 +137,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "md",
+        "image": "shopify://shop_images/beauty-natural-2-middle.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
