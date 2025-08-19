@@ -1,4 +1,19 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
+  "404": {
+    "general": {
+      "title": "페이지를 찾을 수 없습니다",
+      "continue_shopping": "쇼핑 계속하기"
+    }
+  },
   "general": {
     "page": "페이지 {{ page }}",
     "home": "홈",
@@ -7,7 +22,7 @@
       "pagination": "페이지 매김 탐색",
       "go_to_page": "페이지 {{ index }}(으)로 이동",
       "go_to_item": "아이템 {{ index }}(으)로 이동",
-      "item_nth_of_count": "아이템 {{ index }}\/{{ count }}",
+      "item_nth_of_count": "아이템 {{ index }}/{{ count }}",
       "drag": "끌기",
       "close": "닫기",
       "next": "다음",
@@ -27,7 +42,7 @@
       "share_email": "이메일로 공유"
     },
     "rating": {
-      "info": "별점 {{ rating_value }}\/{{ rating_max }}"
+      "info": "별점 {{ rating_value }}/{{ rating_max }}"
     },
     "newsletter": {
       "email": "이메일",
@@ -84,7 +99,7 @@
       "view_in_space": "사용자 공간에서 보기",
       "taxes_included": "세금 포함.",
       "taxes_excluded": "세금 별도.",
-      "shipping_policy_html": "체크아웃 시 <a href=\"{{ link }}\" class=\"link\">배송료 계산<\/a>",
+      "shipping_policy_html": "체크아웃 시 <a href=\"{{ link }}\" class=\"link\">배송료 계산</a>",
       "size_chart": "사이즈 차트",
       "available_colors_count": {
         "one": "{{ count }}개 색상 가능",
@@ -93,7 +108,7 @@
     },
     "gallery": {
       "close": "갤러리 닫기",
-      "zoom": "확대\/축소",
+      "zoom": "확대/축소",
       "error": "사진을 불러 올 수 없습니다"
     },
     "price": {
@@ -286,7 +301,7 @@
       "phone": "전화번호",
       "address1": "주소 1",
       "address2": "주소 2",
-      "city": "시\/군\/구",
+      "city": "시/군/구",
       "zip": "우편번호",
       "country": "국가",
       "province": "도",
@@ -308,9 +323,9 @@
       "view_cart": "장바구니 보기",
       "checkout": "체크아웃",
       "we_accept": "결제 방법:",
-      "taxes_and_shipping_policy_at_checkout_html": "체크아웃 시 세금과 <a href=\"{{ link }}\" class=\"link\">배송료<\/a> 계산",
+      "taxes_and_shipping_policy_at_checkout_html": "체크아웃 시 세금과 <a href=\"{{ link }}\" class=\"link\">배송료</a> 계산",
       "taxes_included_but_shipping_at_checkout": "세금 포함 및 체크아웃 시 배송료 계산",
-      "taxes_included_and_shipping_policy_html": "세금 포함. 체크아웃 시 <a href=\"{{ link }}\" class=\"link\">배송료<\/a> 계산.",
+      "taxes_included_and_shipping_policy_html": "세금 포함. 체크아웃 시 <a href=\"{{ link }}\" class=\"link\">배송료</a> 계산.",
       "taxes_and_shipping_at_checkout": "체크아웃 시 세금과 배송료 계산"
     },
     "order": {
@@ -336,12 +351,6 @@
       "one_result": "귀하의 주소에는 한 가지 배송 옵션이 있습니다:",
       "multiple_results": "귀하의 주소에는 여러 개의 배송 옵션이 있습니다:",
       "error": "배송 옵션을 불러오던 중 한 개 이상의 오류가 발생했습니다:"
-    }
-  },
-  "404": {
-    "general": {
-      "title": "페이지를 찾을 수 없습니다",
-      "continue_shopping": "쇼핑 계속하기"
     }
   },
   "search": {
@@ -375,7 +384,7 @@
     },
     "issued": {
       "remaining_amount": "남은 금액",
-      "out_of_html": "\/{{ initial_value }}",
+      "out_of_html": "/{{ initial_value }}",
       "redeem_instructions": "이 코드로 체크아웃 시 기프트 카드 사용:",
       "code": "기프트 카드 코드",
       "expires_on": "만료: {{ expires_on }}",
@@ -406,13 +415,58 @@
   },
   "apps": {
     "shopify_reviews": {
-      "review_info": "이 상품의 평점은 별점 {{ rating_value }}\/{{ rating_max }}입니다.",
+      "review_info": "이 상품의 평점은 별점 {{ rating_value }}/{{ rating_max }}입니다.",
       "leave_review": "리뷰 남기기",
       "review_count": {
         "zero": "이 상품은 아직 리뷰가 없습니다.",
         "one": "{{ count }}개의 리뷰가 있습니다.",
         "other": "{{ count }}개의 리뷰가 있습니다."
       }
+    }
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "regular_price": "Regular price",
+        "sold_out": "Sold out",
+        "unavailable": "Unavailable",
+        "on_sale": "Sale",
+        "quantity": "Quantity",
+        "add_to_cart": "Add to cart",
+        "back_to_collection": "Back to {{ title }}",
+        "view_details": "View details"
+      }
+    },
+    "article": {
+      "tags": "Tags:",
+      "all_topics": "All topics",
+      "by_author": "by {{ author }}",
+      "posted_in": "Posted in",
+      "read_more": "Read more",
+      "back_to_blog": "Back to {{ title }}"
+    },
+    "comments": {
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
+      "comments_with_count": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    },
+    "password_page": {
+      "login_form_message": "Enter store using password:",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
+      "login_form_submit": "Enter",
+      "signup_form_email_label": "Email",
+      "signup_form_success": "We will send you an email right before we open!",
+      "password_link": "Enter using password"
     }
   }
 }
