@@ -1,4 +1,19 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
+  "404": {
+    "general": {
+      "title": "找不到頁面",
+      "continue_shopping": "繼續購物"
+    }
+  },
   "general": {
     "page": "第 {{ page }} 頁",
     "home": "首頁",
@@ -27,7 +42,7 @@
       "share_email": "透過電子郵件分享"
     },
     "rating": {
-      "info": "{{ rating_value }} \/ {{ rating_max }} 顆星"
+      "info": "{{ rating_value }} / {{ rating_max }} 顆星"
     },
     "newsletter": {
       "email": "電子郵件",
@@ -36,7 +51,7 @@
       "subscribed_successfully": "您已訂閱我們的電子報。"
     },
     "localization": {
-      "country": "國家\/地區",
+      "country": "國家/地區",
       "language": "語言"
     },
     "privacy_bar": {
@@ -84,7 +99,7 @@
       "view_in_space": "在您的空間查看",
       "taxes_included": "含稅。",
       "taxes_excluded": "未含稅。",
-      "shipping_policy_html": "結帳時<a href=\"{{ link }}\" class=\"link\">已計算運費<\/a>",
+      "shipping_policy_html": "結帳時<a href=\"{{ link }}\" class=\"link\">已計算運費</a>",
       "size_chart": "尺寸表",
       "available_colors_count": {
         "one": "有 {{ count }} 種顏色",
@@ -288,8 +303,8 @@
       "address2": "地址行 2",
       "city": "城市",
       "zip": "郵遞區號",
-      "country": "國家\/地區",
-      "province": "省\/州",
+      "country": "國家/地區",
+      "province": "省/州",
       "set_default": "設為預設地址"
     }
   },
@@ -308,9 +323,9 @@
       "view_cart": "查看購物車",
       "checkout": "結帳",
       "we_accept": "我們接受",
-      "taxes_and_shipping_policy_at_checkout_html": "結帳時計算稅費和<a href=\"{{ link }}\" class=\"link\">運費<\/a>",
+      "taxes_and_shipping_policy_at_checkout_html": "結帳時計算稅費和<a href=\"{{ link }}\" class=\"link\">運費</a>",
       "taxes_included_but_shipping_at_checkout": "含稅並於結帳時計算運費",
-      "taxes_included_and_shipping_policy_html": "含稅。在結帳時計算<a href=\"{{ link }}\" class=\"link\">運費<\/a>。",
+      "taxes_included_and_shipping_policy_html": "含稅。在結帳時計算<a href=\"{{ link }}\" class=\"link\">運費</a>。",
       "taxes_and_shipping_at_checkout": "結帳時計算稅費運費"
     },
     "order": {
@@ -328,20 +343,14 @@
     },
     "shipping_estimator": {
       "estimate_shipping": "預估運費",
-      "country": "國家\/地區",
-      "province": "省\/州",
+      "country": "國家/地區",
+      "province": "省/州",
       "zip": "郵遞區號",
       "estimate": "預估",
       "no_results": "很抱歉，我們無法配送至您的地址。",
       "one_result": "配送至您的地址有一種運費：",
       "multiple_results": "配送至您的地址有數種運費：",
       "error": "檢索運費時出現一個或多個錯誤："
-    }
-  },
-  "404": {
-    "general": {
-      "title": "找不到頁面",
-      "continue_shopping": "繼續購物"
     }
   },
   "search": {
@@ -406,13 +415,58 @@
   },
   "apps": {
     "shopify_reviews": {
-      "review_info": "此產品的評價：{{ rating_value }} \/ {{ rating_max }} 顆星。",
+      "review_info": "此產品的評價：{{ rating_value }} / {{ rating_max }} 顆星。",
       "leave_review": "留下評價",
       "review_count": {
         "zero": "此產品尚無評價。",
         "one": "已收到 {{ count }} 則評價。",
         "other": "已收到 {{ count }} 則評價。"
       }
+    }
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "regular_price": "Regular price",
+        "sold_out": "Sold out",
+        "unavailable": "Unavailable",
+        "on_sale": "Sale",
+        "quantity": "Quantity",
+        "add_to_cart": "Add to cart",
+        "back_to_collection": "Back to {{ title }}",
+        "view_details": "View details"
+      }
+    },
+    "article": {
+      "tags": "Tags:",
+      "all_topics": "All topics",
+      "by_author": "by {{ author }}",
+      "posted_in": "Posted in",
+      "read_more": "Read more",
+      "back_to_blog": "Back to {{ title }}"
+    },
+    "comments": {
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
+      "comments_with_count": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    },
+    "password_page": {
+      "login_form_message": "Enter store using password:",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
+      "login_form_submit": "Enter",
+      "signup_form_email_label": "Email",
+      "signup_form_success": "We will send you an email right before we open!",
+      "password_link": "Enter using password"
     }
   }
 }
