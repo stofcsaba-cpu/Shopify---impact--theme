@@ -31,12 +31,12 @@
         {% assign widget = 'review_widget' %}
         {% case widget %}
           {% when "single_product_preview_badge" %}
-            <div style='{{ jm_style }}' class='jdgm-widget jdgm-preview-badge'  data-id='{{ product.id }}'>
+            <div style='{{ jm_style }}' class='jdgm-widget jdgm-preview-badge' data-product-title='{{ product.title }}' data-id='{{ product.id }}'>
               {{ product.metafields.judgeme.badge }}
             </div>
           {% when "review_widget" %}
             <div style='clear:both'></div>
-            <div id='judgeme_product_reviews' class='jdgm-widget jdgm-review-widget' data-id='{{ product.id }}'>
+            <div id='judgeme_product_reviews' class='jdgm-widget jdgm-review-widget' data-product-title='{{ product.title }}' data-id='{{ product.id }}'>
                 {{ product.metafields.judgeme.widget }}
             </div>
           {% when "reviews_carousel" %}
