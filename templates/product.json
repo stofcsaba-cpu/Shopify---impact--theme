@@ -9,85 +9,80 @@
  */
 {
   "sections": {
-    "gp_shopify_original_section_578720958961943271": {
-      "settings": {
-        "checksum": "",
-        "section_preload": "true"
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {}
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {}
+        },
+        "pickup_availability": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
       },
-      "type": "gp-section-578720958961943271"
+      "block_order": [
+        "vendor",
+        "title",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "separator",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons"
+      ],
+      "settings": {}
     },
-    "gp_shopify_original_section_578721263552299643": {
-      "settings": {
-        "checksum": ""
-      },
-      "type": "gp-section-578721263552299643"
-    },
-    "gp_shopify_original_section_578721285094245249": {
-      "settings": {
-        "checksum": ""
-      },
-      "type": "gp-section-578721285094245249"
-    },
-    "gp_shopify_original_section_578721285094245257": {
-      "settings": {
-        "checksum": ""
-      },
-      "type": "gp-section-578721285094245257"
-    },
-    "gp_shopify_original_section_578721304975246209": {
-      "settings": {
-        "checksum": ""
-      },
-      "type": "gp-section-578721304975246209"
-    },
-    "gp_shopify_original_section_578730352055419777": {
-      "settings": {
-        "checksum": ""
-      },
-      "type": "gp-section-578730352055419777"
-    },
-    "gp_shopify_original_section_580224367066088020": {
-      "settings": {
-        "checksum": ""
-      },
-      "type": "gp-section-580224367066088020"
-    },
-    "gp_shopify_original_section_580231341925204980": {
-      "settings": {
-        "checksum": ""
-      },
-      "type": "gp-section-580231341925204980"
-    },
-    "gp_shopify_original_section_580333516932252660": {
-      "settings": {
-        "checksum": ""
-      },
-      "type": "gp-section-580333516932252660"
-    },
-    "gp_shopify_original_section_580336002678129173": {
-      "settings": {
-        "checksum": ""
-      },
-      "type": "gp-section-580336002678129173"
-    },
-    "gp_shopify_original_section_580454918746276360": {
-      "settings": {
-        "checksum": ""
-      },
-      "type": "gp-section-580454918746276360"
+    "related-products": {
+      "type": "related-products",
+      "settings": {}
     }
   },
   "order": [
-    "gp_shopify_original_section_578720958961943271",
-    "gp_shopify_original_section_578721263552299643",
-    "gp_shopify_original_section_580231341925204980",
-    "gp_shopify_original_section_578730352055419777",
-    "gp_shopify_original_section_580224367066088020",
-    "gp_shopify_original_section_578721285094245257",
-    "gp_shopify_original_section_578721285094245249",
-    "gp_shopify_original_section_578721304975246209",
-    "gp_shopify_original_section_580333516932252660",
-    "gp_shopify_original_section_580336002678129173",
-    "gp_shopify_original_section_580454918746276360"
+    "main",
+    "related-products"
   ]
 }
